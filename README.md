@@ -14,5 +14,5 @@ docker build --build-arg TINI_PLATFORM="arm64" -t sbloodys/hadoop:3.3.6 .
 
 Start a hadoop cluster container with the following command:
 ```bash
-docker-compose -f hadoop.yaml up -d
+docker-compose -f docker-compose-hadoop.yaml up -d
 ```
