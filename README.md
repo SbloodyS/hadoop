@@ -16,3 +16,7 @@ Start a hadoop cluster container with the following command:
 ```bash
 docker-compose -f docker-compose-hadoop.yaml up -d
 ```
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE)
